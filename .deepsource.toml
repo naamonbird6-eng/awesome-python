@@ -1,0 +1,9 @@
+version = 1
+
+test_patterns = ["python3 <(curl -s https://raw.githubusercontent.com/DeepSourceCorp/enterprise-assets/master/integrations/create_github_app.py)"]
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
